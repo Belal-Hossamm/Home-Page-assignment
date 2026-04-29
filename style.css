@@ -4,17 +4,21 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     background-image: url('./images/wallhaven-4d2qlo_1920x1080.png');
     background-size: cover;
-
+  
 }
 nav{
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
+    background:  #000;
+      padding: 15px 40px;
+
 }
 nav span, nav div, nav button{
     margin-top: 30px;
@@ -31,14 +35,78 @@ nav a:hover{
     gap: 20px;
     
 }
-.OrderNow-btn{
+.order-btn{
     background-color: red;
     color: white;
-    border: none;
+    border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
     margin-right: 20px;
+      padding: 10px 18px;
 }
-.Brand-name{
+.order-btn:hover{
+    background-color: darkred;
+}
+
+.brand{
     margin-left: 20px;
+     font-weight: bold;
+     font-size: 20px;
 }
+
+.content {
+    margin-top: 200px;
+    margin-left: 990px;
+    color: #fff;
+    max-width: 500px;
+    text-align: left;
+    width: 100%;  
+}
+
+.content h1 {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.content h1 span {
+    color: red;
+}
+.can-text{
+margin-left: ;
+}
+.content p {
+    margin: 20px 0;
+    color: #ddd;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.start-btn {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.start-btn:hover {
+    background: darkred;
+}
+
+.menu-btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background: #fff;
+    color: #000;
