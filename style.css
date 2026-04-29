@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('./images/wallhaven-4d2qlo_1920x1080.png');
+    background-size: cover;
+
+}
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+nav span, nav div, nav button{
+    margin-top: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: red;
+}
+.nav-links{
+    display:flex;
+    gap: 20px;
+    
+}
+.OrderNow-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.Brand-name{
+    margin-left: 20px;
+}
